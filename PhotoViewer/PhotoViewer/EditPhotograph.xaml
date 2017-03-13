@@ -1,0 +1,27 @@
+﻿<Window x:Name="EditPhotograph1" x:Class="PhotoViewer.EditPhotograph"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhotoViewer"
+        mc:Ignorable="d"
+        Title="Edit Photograph" Height="278.351" Width="526.804">
+    <Grid>
+        <Label x:Name="label_Title" Content="Title:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_dateTaken" Content="Date Taken:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_description" Content="Description:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_artistName" Content="Artist Name:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_keywords" Content="Keywords:" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_fileLocation" Content="File Location:" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_title" HorizontalAlignment="Left" Height="23" Margin="94,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="408"/>
+        <TextBox x:Name="textBox_dateTaken" HorizontalAlignment="Left" Height="23" Margin="94,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_description" HorizontalAlignment="Left" Height="23" Margin="94,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="408"/>
+        <TextBox x:Name="textBox_artistName" HorizontalAlignment="Left" Height="23" Margin="94,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="408"/>
+        <TextBox x:Name="textBox_keywords" HorizontalAlignment="Left" Height="23" Margin="94,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="408"/>
+        <TextBox x:Name="textBox_fileLocation" HorizontalAlignment="Left" Height="23" Margin="94,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328"/>
+        <Button x:Name="button_Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="427,209,0,0" VerticalAlignment="Top" Width="75" IsCancel="True" Click="button_Cancel_Click"/>
+        <Button x:Name="button_OK" Content="OK" HorizontalAlignment="Left" Margin="337,209,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.964,0.227" Click="button_OK_Click"/>
+        <Button x:Name="button_Select" Content="Select File" HorizontalAlignment="Left" Margin="427,169,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="3.186,-0.704" Click="button_Select_Click"/>
+
+    </Grid>
+</Window>
